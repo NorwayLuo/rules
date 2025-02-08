@@ -3,9 +3,8 @@
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
-IP-CIDR,137.221.106.59/32,no-resolve
-IP-CIDR,137.221.106.22/32,no-resolve
-IP-CIDR,137.221.104.171/32,no-resolve
+IP-CIDR,137.221.106.0/24,no-resolve
+IP-CIDR,137.221.104.0/24,no-resolve
 IP-CIDR,137.221.64.0/24,no-resolve
 IP-CIDR,103.4.114.233/32,no-resolve
 IP-CIDR,185.60.112.157/32,no-resolve
