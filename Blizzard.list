@@ -3,6 +3,7 @@
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,arkoselabs.com
 IP-CIDR,137.221.106.0/24,no-resolve
 IP-CIDR,137.221.104.0/24,no-resolve
 IP-CIDR,137.221.64.0/24,no-resolve
