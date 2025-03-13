@@ -4,8 +4,7 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,sc.com
-DOMAIN-SUFFIX,qichiyu.com
+
 DOMAIN-SUFFIX,blizzard.nefficient.co.kr
 DOMAIN-SUFFIX,blzddist1-a.akamaihd.net
 DOMAIN-SUFFIX,blzddistkr1-a.akamaihd.net
@@ -27,6 +26,17 @@ DOMAIN-SUFFIX,starcraft.com
 DOMAIN-SUFFIX,starcraft2.com
 DOMAIN-SUFFIX,playwarcraft3.com
 DOMAIN-SUFFIX,worldofwarcraft.com
+
+#special websites
+#bank website
+DOMAIN-SUFFIX,sc.com
+#vpn author
+DOMAIN-SUFFIX,qichiyu.com
+#mac software
+DOMAIN-SUFFIX,appstorrent.ru
+
+
+
 IP-CIDR,137.221.106.0/24,no-resolve
 IP-CIDR,137.221.104.0/24,no-resolve
 IP-CIDR,137.221.64.0/24,no-resolve
