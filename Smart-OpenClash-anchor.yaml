@@ -115,9 +115,9 @@ dns:
 # 没有再使用锚点，是考虑很多新手修改难度，这样新手修改某个分组更容易些。
 # 出站策略
 # 注意锚点必须放在引用的上方，可以集中把锚点全部放yaml的顶部。
-pr: &pr {type: select, proxies: [🚀 默认代理, ♻️ Game智能, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+pr: &pr {type: select, proxies: [🚀 默认代理, ♻️ 香港智能, ♻️ Game智能, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
 proxy-groups:
-  - {name: 🚀 默认代理, type: select, proxies: [♻️ 自动选择, ♻️ Game智能, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
+  - {name: 🚀 默认代理, type: select, proxies: [♻️ 自动选择, ♻️ 香港智能, ♻️ Game智能, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 直连]}
   - {name: 🎮 Game, <<: *pr}
   - {name: 📹 YouTube, <<: *pr}
   - {name: 🍀 Google, <<: *pr}
@@ -139,11 +139,11 @@ proxy-groups:
   - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
   - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
   - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(美|US|(?i)States|America))^((?!(港|台|日|韩|新)).)*$"}
-  #- {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
-  - {name: ♻️ Game智能, type: smart, uselightgbm: true, collectdata: true, include-all: true, interval: 300, filter: "(?=.*(Hong Kong))^((?!(直连|剩余流量|距离下次|套餐到期)).)*$" }
+  - {name: ♻️ 香港智能, type: smart, uselightgbm: true, collectdata: true, include-all: true, interval: 300, filter: "(?=.*(Hong Kong))^((?!(直连|剩余流量|距离下次|套餐到期)).)*$" }
+  - {name: ♻️ Game智能, type: smart, uselightgbm: true, collectdata: true, include-all: true, interval: 300, filter: "(?=.*(Hong Kong))^((?!(直连|剩余流量|距离下次|套餐到期|IEPL)).)*$" }
   - {name: ♻️ 自动选择, type: smart, uselightgbm: true, collectdata: true, include-all: true, interval: 300, filter: "^((?!(直连|剩余流量|距离下次|套餐到期)).)*$"}
   - {name: 🌐 全部节点, type: select, include-all: true}
-
+  #- {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
