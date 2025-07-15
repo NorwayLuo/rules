@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,nssurge.com
 
 # 域名关键字匹配
-DOMAIN-KEYWORD,llgjc.xyz
+DOMAIN-KEYWORD,llgjc
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
