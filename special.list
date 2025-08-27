@@ -6,9 +6,10 @@ DOMAIN-SUFFIX,llg01.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,rfi.fr
 # 域名关键字匹配
 DOMAIN-KEYWORD,llgjc
-DOMAIN-KEYWORD,copilot
+#DOMAIN-KEYWORD,copilot
 
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
