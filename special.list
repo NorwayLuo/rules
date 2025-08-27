@@ -5,7 +5,7 @@ DOMAIN-SUFFIX,llgjc1.com
 DOMAIN-SUFFIX,llg01.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,copilot.microsoft.com
+#DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,t.co
 # 域名关键字匹配
