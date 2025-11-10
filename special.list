@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,openevidence.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,duckduckgo.com
+DOMAIN-SUFFIX,grokipedia.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,llgjc
 
