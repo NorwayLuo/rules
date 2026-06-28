@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,openevidence.com
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,languagereactor.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,llgjc
 DOMAIN-KEYWORD,cokecloud
